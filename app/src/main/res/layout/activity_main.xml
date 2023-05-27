@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DED2EF"
+    android:background="#CBBEDD"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,130 +12,156 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-smallcaps"
-        android:text="Madlib"
+        android:text="Night fright Madlib"
+        android:textColor="#5E4787"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.473"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="58dp" />
+        app:layout_constraintGuide_percent="0.09439124" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="57dp" />
+        app:layout_constraintGuide_percent="0.13868614" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="357dp" />
+        app:layout_constraintGuide_percent="0.8686131" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="677dp" />
+        app:layout_constraintGuide_percent="0.92612857" />
 
     <LinearLayout
         android:layout_width="295dp"
         android:layout_height="572dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="101dp">
+        app:layout_constraintTop_toTopOf="@+id/guideline8"
+        tools:layout_editor_absoluteX="60dp">
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/et_month"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:fontFamily="sans-serif-smallcaps"
             android:inputType="text"
-            android:text="Noun"
-            android:textColor="#FCFFFC"
+            android:hint="Month"
+            android:textColor="#F8F3F3" />
+
+        <EditText
+            android:id="@+id/et_adjective1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="Adjective"
+            android:inputType="text"
+            android:textColor="#F6F0F0"
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/et_adjective2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:fontFamily="sans-serif-smallcaps"
+            android:hint="Adjective"
             android:inputType="text"
-            android:text="Verb"
+            android:textColor="#F8F3F3" />
+
+        <EditText
+            android:id="@+id/et_costume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="Costume"
+            android:inputType="text"
             android:textColor="#FFFFFF" />
 
         <EditText
-            android:id="@+id/editTextText3"
+            android:id="@+id/et_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:fontFamily="sans-serif-smallcaps"
-            android:inputType="text"
-            android:text="Adjective"
+            android:hint="number"
+            android:inputType="number"
             android:textColor="#FFFFFF" />
 
         <EditText
-            android:id="@+id/editTextText5"
+            android:id="@+id/et_celebrity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:fontFamily="sans-serif-smallcaps"
+            android:hint="Celebrity"
             android:inputType="text"
-            android:text="Color"
             android:textColor="#FFFFFF" />
 
         <EditText
-            android:id="@+id/editTextText6"
+            android:id="@+id/et_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Location"
+            android:textColor="#FAFAFA" />
+
+        <EditText
+            android:id="@+id/et_substance"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:fontFamily="sans-serif-smallcaps"
+            android:hint="Substance"
             android:inputType="text"
-            android:text="Shape"
             android:textColor="#FFFFFF" />
 
         <EditText
-            android:id="@+id/editTextText7"
+            android:id="@+id/et_adjective3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:fontFamily="sans-serif-smallcaps"
+            android:hint="Adjective"
             android:inputType="text"
-            android:text="Location"
             android:textColor="#FFFCFC" />
 
         <EditText
-            android:id="@+id/editTextText8"
+            android:id="@+id/et_goodorbad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:fontFamily="sans-serif-smallcaps"
+            android:hint="Good or bad"
             android:inputType="text"
-            android:text="Business"
-            android:textColor="#F3F3F3" />
+            android:textColor="#FFFFFF" />
 
-        <EditText
-            android:id="@+id/editTextText9"
+        <Button
+            android:id="@+id/btn_generate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
             android:fontFamily="sans-serif-smallcaps"
-            android:inputType="text"
-            android:text="Food"
-            android:textColor="#FFFDFD" />
+            android:text="Generate" />
 
     </LinearLayout>
 
@@ -143,9 +169,25 @@
         android:id="@+id/textView3"
         android:layout_width="317dp"
         android:layout_height="19dp"
-        android:text="Fill in the boxes below to generate a Mad Lib"
+        android:text="Fill in the boxes below to generate the MadLib"
         android:textAlignment="center"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="43dp" />
+        android:textColor="#A185AE"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        tools:layout_editor_absoluteX="47dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15458277" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="694dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
