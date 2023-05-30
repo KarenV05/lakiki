@@ -14,12 +14,13 @@
         android:fontFamily="sans-serif-smallcaps"
         android:text="Night fright Madlib"
         android:textColor="#5E4787"
-        android:textSize="20sp"
+        android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.473"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -50,11 +51,13 @@
         app:layout_constraintGuide_percent="0.92612857" />
 
     <LinearLayout
-        android:layout_width="295dp"
-        android:layout_height="572dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="@+id/guideline8"
-        tools:layout_editor_absoluteX="60dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline8">
 
         <EditText
             android:id="@+id/et_month"
@@ -62,8 +65,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:fontFamily="sans-serif-smallcaps"
-            android:inputType="text"
             android:hint="Month"
+            android:inputType="text"
             android:textColor="#F8F3F3" />
 
         <EditText
@@ -122,8 +125,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
+            android:fontFamily="sans-serif-smallcaps"
             android:hint="Location"
+            android:inputType="text"
             android:textColor="#FAFAFA" />
 
         <EditText
@@ -172,22 +176,24 @@
         android:text="Fill in the boxes below to generate the MadLib"
         android:textAlignment="center"
         android:textColor="#A185AE"
-        android:textSize="12sp"
+        android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
-        tools:layout_editor_absoluteX="47dp" />
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline9" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.15458277" />
+        app:layout_constraintGuide_percent="0.15" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_end="694dp" />
+        app:layout_constraintGuide_percent="0.051983584" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
