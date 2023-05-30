@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CBBEDD"
+    android:background="#D5C8E8"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,8 +12,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-smallcaps"
-        android:text="Night fright Madlib"
-        android:textColor="#5E4787"
+        android:text="Night Fright Madlib"
+        android:textColor="#367385"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline9"
@@ -106,7 +106,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:fontFamily="sans-serif-smallcaps"
-            android:hint="number"
+            android:hint="Number"
             android:inputType="number"
             android:textColor="#FFFFFF" />
 
@@ -165,7 +165,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-smallcaps"
-            android:text="Generate" />
+            android:text="Generate"
+            android:textColor="#FAF6F6"
+            android:textSize="20sp" />
 
     </LinearLayout>
 
@@ -175,8 +177,8 @@
         android:layout_height="19dp"
         android:text="Fill in the boxes below to generate the MadLib"
         android:textAlignment="center"
-        android:textColor="#A185AE"
-        android:textSize="16sp"
+        android:textColor="#448DA3"
+        android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="@+id/guideline3"

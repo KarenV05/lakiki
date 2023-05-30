@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 story += "Counting these racks, that's " + etNumber.getText() + " stacks.\n";
                 story += "Knocking on the door, " + etCelebrity.getText() + " opens up giving me more ‘cause that's what im here for.\n";
                 story += "Strutting " + etLocation.getText() + " like its a cat walk ‘cause that's what I know.\n";
-                story += "Serving these looks, the competition shook; its definitely one for the books.\n";
+                story += "Serving these looks, yeah, the competition shook; its definitely one for the books.\n";
                 story += "Feasting on the treats, its true they gave me something " + etGoodorbad.getText() + " to eat.\n";
                 story += "Arriving home like a bird just when dinner is served.\n";
                 story += etSubstance.getText() + " filled tub, “oh you know I’m bout to grub” no crumbs.\n";
